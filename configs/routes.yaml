@@ -1,0 +1,8 @@
+routes:
+  - id: users-service
+    path: /users
+    upstream: http://localhost:8081
+
+  - id: orders-service
+    path: /orders
+    upstream: http://localhost:8082
